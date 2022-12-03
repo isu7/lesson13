@@ -1,1 +1,35 @@
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+    background: #FFFFFF;
+    padding-left: 81px;
+    padding-right: 82px;
+
+}
+
+.header-inner {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+
+    width: 119px;
+    height: 13px;
+
+    background: #999999;
+}
+button {
+    width: 62px;
+    height: 27px;
+}
+.btn {
+    display: flex;
+    gap: 9px;
+}
